@@ -64,7 +64,7 @@ function! neosnippet#mappings#_clear_select_mode_mappings() "{{{
   snoremap <CR>     a<BS>
   snoremap <BS>     a<BS>
   snoremap <Del>    a<BS>
-  snoremap <C-h>    a<BS>
+  "snoremap <C-h>    a<BS> "khh-disable
 endfunction"}}}
 
 function! neosnippet#mappings#_register_oneshot_snippet() "{{{
